@@ -1,19 +1,19 @@
-Dynamic Delinquency Risk Simulator 💳
+Dynamic Delinquency Risk Simulator 
 
 A sophisticated, interactive business intelligence tool built with Streamlit and Scikit-Learn designed to predict credit card delinquency risk. This application allows financial analysts to move beyond "black-box" machine learning by providing a transparent, interactive simulator to stress-test credit profiles and audit large portfolios.
 
- 🚀 Overview
+Overview
 Traditional risk models often provide a score without context. This application bridges the gap between predictive modeling and actionable insight by offering two distinct operational modes:
 1.  Manual Scenario Simulator: Move sliders to adjust key financial features in real-time and see how the model's risk prediction updates instantly.
 2.  Automated Portfolio Audit: Batch-process entire datasets to categorize customers into Critical, High, Medium, or Low risk tiers for prioritized collections and intervention.
 
- 🛠️ Key Features
+Key Features
  Dynamic Data Agnostic: Automatically detects column names, handles missing values, and encodes categorical data without requiring code changes for different CSV structures.
  AI-Learned Drivers: Automatically identifies the top 4 predictive drivers (e.g., payment status, credit limit, age) from your dataset and builds interactive sliders based on those specific variables.
  Actionable Intelligence: Provides an automated "Flagged Customer List" with export capabilities (CSV) to streamline operations for collections and risk management teams.
  Transparent Analytics: Uses interactive Plotly visualizations to show "Model Importance," giving users visibility into why a profile is flagged as high-risk.
 
- ⚙️ Tech Stack
+Tech Stack
  Frontend: Streamlit
  ML Engine: Scikit-Learn (Random Forest Classifier, StandardScaler)
  Visualization: Plotly
